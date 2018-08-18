@@ -1,0 +1,44 @@
+{
+  "name": "postcss-image-data",
+  "version": "0.0.1",
+  "description": "PostCSS plugin for image height, image ratio and image colour in CSS",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src --presets babel-preset-es2015 --out-dir dist",
+    "prepublish": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dobby89/postcss-image-data.git"
+  },
+  "keywords": [
+    "postcss",
+    "image",
+    "width",
+    "height",
+    "size",
+    "ratio",
+    "color",
+    "colour"
+  ],
+  "author": "Robin O'Neill",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Dobby89/postcss-image-data/issues"
+  },
+  "homepage": "https://github.com/Dobby89/postcss-image-data#readme",
+  "devDependencies": {
+    "babel-cli": "6",
+    "babel-preset-es2015": "6",
+    "eslint-config-ao": "^0.0.1-rc.3"
+  },
+  "dependencies": {
+    "globby": "^8.0.1",
+    "is-image": "^2.0.0",
+    "jimp": "^0.3.5",
+    "node-localstorage": "^1.3.1",
+    "postcss": "^7.0.2",
+    "round-precision": "^1.0.0"
+  }
+}
