@@ -10,7 +10,7 @@
 * Average colour
 * Caching
 
-**Note:** All width, height and ratio helpers include a 2x resolution version. For example, `image-width()` becomes `image-width-2x()`. The assumption is that
+**Note:** All width, height and ratio helpers include a 2x resolution version. For example, `image-width()` becomes `image-width-2x()`. The assumption is that the 2x image is the original image found and the 1x image is half of that.
 
 
 ## Usage
