@@ -21,9 +21,6 @@ const postcssImageData = require('postcss-image-data');
 postcss([postcssImageData([options])])
 ```
 
-
-## CSS Example
-
 ```.css
 /* Input */
 .example-image {
@@ -50,7 +47,7 @@ postcss([postcssImageData([options])])
 * `image-colour()` - The average colour of the image as a HEX string.
 
 
-## CSS helper examples
+### Examples
 
 **Important**: All image paths used with the CSS helpers must be absolute from the root of your project.
 
