@@ -20,7 +20,8 @@
     "size",
     "ratio",
     "color",
-    "colour"
+    "colour",
+    "dimensions"
   ],
   "author": "Robin O'Neill",
   "license": "MIT",
