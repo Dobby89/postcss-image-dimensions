@@ -29,7 +29,7 @@ const postcssImageDimensions = require('postcss-image-dimensions');
 postcss([postcssImageDimensions([options])])
 ```
 
-Use [available helper methods](/css-helper-methods) in your CSS.
+Use [available helper methods](#css-helper-methods) in your CSS.
 
 ```.css
 /* Input */
@@ -46,6 +46,8 @@ Use [available helper methods](/css-helper-methods) in your CSS.
 
 ## CSS helper methods
 
+**Important**: All image paths used with the CSS helpers must be absolute from the root of your project.
+
 * `image-width()` - Width in pixels.
 * `image-width-2x()` - Width in pixels.
 * `image-width-ratio()` - Ratio of width as a percentage (to 4 decimal places).
@@ -56,10 +58,7 @@ Use [available helper methods](/css-helper-methods) in your CSS.
 * `image-height-ratio-2x()` - Ratio of height as a percentage (to 4 decimal places).
 * `image-color()` - The average color of the image as a hexadecimal string or `transparent` if image is transparent.
 
-
 ### Examples
-
-**Important**: All image paths used with the CSS helpers must be absolute from the root of your project.
 
 All examples below assume the following image has been used.
 

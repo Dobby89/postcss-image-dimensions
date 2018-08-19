@@ -1,6 +1,6 @@
 {
   "name": "postcss-image-dimensions",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "PostCSS plugin for image height, image ratio and image color in CSS",
   "main": "index.js",
   "scripts": {
