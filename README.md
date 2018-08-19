@@ -15,11 +15,21 @@ PostCSS plugin for using image width, height, ratio and color data in your CSS.
 
 ## Usage
 
+Install package as a dependency.
+
+```
+yarn add postcss-image-dimensions
+```
+
+Add to your PostCSS build chain.
+
 ```.js
 const postcssImageDimensions = require('postcss-image-dimensions');
 
 postcss([postcssImageDimensions([options])])
 ```
+
+Use [available helper methods](/css-helper-methods) in your CSS.
 
 ```.css
 /* Input */
@@ -34,7 +44,7 @@ postcss([postcssImageDimensions([options])])
 ```
 
 
-## Available CSS helpers
+## CSS helper methods
 
 * `image-width()` - Width in pixels.
 * `image-width-2x()` - Width in pixels.
