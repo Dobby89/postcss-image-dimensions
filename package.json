@@ -1,7 +1,7 @@
 {
   "name": "postcss-image-dimensions",
-  "version": "0.0.4",
-  "description": "PostCSS plugin for image height, image ratio and image colour in CSS",
+  "version": "0.0.5",
+  "description": "PostCSS plugin for image height, image ratio and image color in CSS",
   "main": "index.js",
   "scripts": {
     "build": "babel src --presets babel-preset-es2015 --out-dir dist",

@@ -51,9 +51,9 @@ const methodMap = {
 		propertyName: 'heightRatio2x',
 		suffix: '%'
 	},
-	'image-colour': {
-		pattern: /image-colour\(['"]?(.+?)['"]?\)/,
-		propertyName: 'colour'
+	'image-color': {
+		pattern: /image-color\(['"]?(.+?)['"]?\)/,
+		propertyName: 'color'
 	}
 };
 
@@ -100,13 +100,13 @@ async function buildImageData(filePath) {
 				const height1x = Math.ceil(height / 2);
 
 				/**
-				 * Get the "average colour" of the image by resizing down
-				 * to a 1 x 1px and getting the colour of that pixel.
+				 * Get the "average color" of the image by resizing down
+				 * to a 1 x 1px and getting the color of that pixel.
 				 *
 				 * TODO: Make this more accurate.
 				 */
 				const rgb = img.resize(1, 1, jimp.RESIZE_BICUBIC).getPixelColor(0, 0);
-				const colour = rgb ? rgbToHex(jimp.intToRGBA(rgb)) : 'transparent';
+				const color = rgb ? rgbToHex(jimp.intToRGBA(rgb)) : 'transparent';
 
 				imageData.width1x = width1x;
 				imageData.height1x = height1x;
@@ -116,7 +116,7 @@ async function buildImageData(filePath) {
 				imageData.widthRatio2x = roundPrecision(width / height * 100, 4);
 				imageData.heightRatio1x = roundPrecision(height1x / width1x * 100, 4);
 				imageData.heightRatio2x = roundPrecision(height / width * 100, 4);
-				imageData.colour = colour;
+				imageData.color = color;
 
 				// Cache the image data
 				cache.setItem(cacheKey, JSON.stringify(imageData));

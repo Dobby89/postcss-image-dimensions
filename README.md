@@ -1,13 +1,13 @@
 # PostCSS Image Dimensions
 
-PostCSS plugin for using image width, height, ratio and colour data in your CSS.
+PostCSS plugin for using image width, height, ratio and color data in your CSS.
 
 
 ## Features
 
 * Image width and height
 * Image size ratio (width:height and height:width)
-* Average colour
+* Average color
 * Caching
 
 **Note:** All width, height and ratio helpers include a 2x resolution version. For example, `image-width()` becomes `image-width-2x()`. The assumption is that the 2x image is the original image found and the 1x image is half of that.
@@ -44,7 +44,7 @@ postcss([postcssImageDimensions([options])])
 * `image-height-2x()` - Height in pixels.
 * `image-height-ratio()` - Ratio of height as a percentage (to 4 decimal places).
 * `image-height-ratio-2x()` - Ratio of height as a percentage (to 4 decimal places).
-* `image-colour()` - The average colour of the image as a hexadecimal string or `transparent` if image is transparent.
+* `image-color()` - The average color of the image as a hexadecimal string or `transparent` if image is transparent.
 
 
 ### Examples
@@ -65,7 +65,7 @@ All examples below assume the following image has been used.
 | `image-height-2x('test/juice.jpg')` | `211px` |
 | `image-height-ratio('test/juice.jpg')` | `84.8%` |
 | `image-height-ratio-2x('test/juice.jpg')` | `84.4%` |
-| `image-colour('test/juice.jpg')` | `#cbbc8e` |
+| `image-color('test/juice.jpg')` | `#cbbc8e` |
 
 
 ## API
@@ -90,4 +90,4 @@ The plugin creates a cache of all image data so it doesn't have to keep processi
 ## Todo
 
 * Write tests
-* Add more accurate average colour
+* Add more accurate average color
