@@ -44,7 +44,7 @@ postcss([postcssImageDimensions([options])])
 * `image-height-2x()` - Height in pixels.
 * `image-height-ratio()` - Ratio of height as a percentage (to 4 decimal places).
 * `image-height-ratio-2x()` - Ratio of height as a percentage (to 4 decimal places).
-* `image-colour()` - The average colour of the image as a hexadecimal string.
+* `image-colour()` - The average colour of the image as a hexadecimal string or `transparent` if image is transparent.
 
 
 ### Examples
