@@ -1,5 +1,5 @@
 {
-  "name": "postcss-image-data",
+  "name": "postcss-image-dimensions",
   "version": "0.0.1",
   "description": "PostCSS plugin for image height, image ratio and image colour in CSS",
   "main": "index.js",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Dobby89/postcss-image-data.git"
+    "url": "git+https://github.com/Dobby89/postcss-image-dimensions.git"
   },
   "keywords": [
     "postcss",
@@ -25,9 +25,9 @@
   "author": "Robin O'Neill",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Dobby89/postcss-image-data/issues"
+    "url": "https://github.com/Dobby89/postcss-image-dimensions/issues"
   },
-  "homepage": "https://github.com/Dobby89/postcss-image-data#readme",
+  "homepage": "https://github.com/Dobby89/postcss-image-dimensions#readme",
   "devDependencies": {
     "babel-cli": "6",
     "babel-preset-es2015": "6",

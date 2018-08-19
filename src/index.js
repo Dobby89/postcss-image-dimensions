@@ -1,4 +1,4 @@
-const pluginName = 'postcss-image-data';
+const pluginName = 'postcss-image-dimensions';
 const fs = require('fs');
 const globby = require('globby');
 const jimp = require('jimp');

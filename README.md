@@ -1,6 +1,6 @@
-# PostCSS Image Data
+# PostCSS Image Dimensions
 
-[PostCSS](https://github.com/postcss/postcss) plugin for using image width, height, ratio and colour data in your CSS.
+PostCSS plugin for using image width, height, ratio and colour data in your CSS.
 
 
 ## Features
@@ -16,7 +16,7 @@
 ## Usage
 
 ```.js
-const postcssImageData = require('postcss-image-data');
+const postcssImageData = require('postcss-image-dimensions');
 
 postcss([postcssImageData([options])])
 ```
