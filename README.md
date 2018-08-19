@@ -16,9 +16,9 @@ PostCSS plugin for using image width, height, ratio and colour data in your CSS.
 ## Usage
 
 ```.js
-const postcssImageData = require('postcss-image-dimensions');
+const postcssImageDimensions = require('postcss-image-dimensions');
 
-postcss([postcssImageData([options])])
+postcss([postcssImageDimensions([options])])
 ```
 
 ```.css
@@ -70,7 +70,7 @@ All examples below assume the following image has been used.
 
 ## API
 
-### postcssImageData([options])
+### postcssImageDimensions([options])
 
 #### options.globPattern
 
