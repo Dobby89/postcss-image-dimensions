@@ -129,7 +129,7 @@ async function buildImageData(filePath) {
 module.exports = plugin(pluginName, (options = {}) => {
 
 	// Override any default configs
-	globPattern = options.assetPaths || globPattern;
+	globPattern = options.globPattern || globPattern;
 	cachePath = options.cachePath || cachePath;
 	cache = new LocalStorage(cachePath);
 
