@@ -85,3 +85,9 @@ Override where the plugin should look for images. Paths need to be provided as g
 * Default value: `'./.cache'`
 
 The plugin creates a cache of all image data so it doesn't have to keep processing images each time.
+
+
+## Todo
+
+* Write tests
+* Add more accurate average colour
