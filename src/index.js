@@ -94,7 +94,7 @@ async function buildImageData(filePath) {
 				/**
 				 * Set the non-retina dimensions by halfing dimensions
 				 * and round up to nearest pixel. This seems to be the
-				 * approach of Jimp, so we'll go with that.
+				 * approach of Photoshop and Jimp, so we'll go with that!
 				 */
 				const width1x = Math.ceil(width / 2);
 				const height1x = Math.ceil(height / 2);
