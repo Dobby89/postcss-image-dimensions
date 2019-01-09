@@ -1,11 +1,11 @@
 {
   "name": "postcss-image-dimensions",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "PostCSS plugin for image height, image ratio and image color in CSS",
   "main": "dist/index.js",
   "scripts": {
     "build": "babel src --out-dir dist",
-    "prepublish": "npm run build",
+    "prepare": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
