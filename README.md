@@ -26,7 +26,12 @@ Add to your PostCSS build chain.
 ```.js
 const postcssImageDimensions = require('postcss-image-dimensions');
 
-postcss([postcssImageDimensions([options])])
+postcss([
+	postcssImageDimensions({
+		globPattern: ['./src/images/**/*', './other/images/**/*'], // String or Array of strings
+		cachePath: './.cache'
+	})
+]);
 ```
 
 Use [available helper methods](#css-helper-methods) in your CSS.
